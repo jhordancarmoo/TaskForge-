@@ -1,0 +1,18 @@
+TaskForge/
+ ├── src/
+ │   └── main/
+ │       ├── java/
+ │       │   └── com/
+ │       │       └── jhordan/
+ │       │           └── taskforge/
+ │       │               ├── controller/
+ │       │               ├── service/
+ │       │               ├── repository/
+ │       │               ├── model/
+ │       │               └── dto/
+ │       └── resources/
+ │           ├── application.yml
+ │           └── data.sql (opcional)
+ ├── README.md
+ ├── .gitignore
+ └── pom.xml
