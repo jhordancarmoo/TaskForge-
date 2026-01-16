@@ -19,7 +19,24 @@ public class TaskService {
         return repository.findAll();
     }
 
+    public Task findById(Long id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Task not found"));
+    }
+
     public Task save(Task task) {
         return repository.save(task);
+    }
+
+    public Task update(Long id, Task updatedTask) {
+        Task task = findById(id);
+        task.setTitle(updatedTask.getTitle());
+        task.setDescription(updatedTask.getDescription());
+        task.setCompleted(updatedTask.isCompleted());
+        return repository.save(task);
+    }
+
+    public void delete(Long id) {
+        repository.deleteById(id);
     }
 }
