@@ -1,8 +1,8 @@
-# TaskForge 🚀
+# TaskForge
 
 API REST para gerenciamento de tarefas, desenvolvida em Java com Spring Boot.
 
-## 🎯 Objetivo
+## Objetivo
 Aplicar conceitos de Engenharia de Software, organização em camadas e boas práticas no desenvolvimento de um sistema CRUD.
 
 ## ⚙️ Funcionalidades
@@ -13,7 +13,7 @@ Aplicar conceitos de Engenharia de Software, organização em camadas e boas pr�
 - Deletar tarefas
 - Controle de status e prioridade
 
-## 🧱 Tecnologias
+## Tecnologias
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -21,9 +21,9 @@ Aplicar conceitos de Engenharia de Software, organização em camadas e boas pr�
 - Maven
 - Git e GitHub
 
-## 📂 Estrutura
+## Estrutura
 Projeto organizado em Controller, Service, Repository, Model e DTO.
 
-## ▶️ Como executar
+## Como executar
 ```bash
 mvn spring-boot:run
